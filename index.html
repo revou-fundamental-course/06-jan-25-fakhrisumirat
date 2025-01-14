@@ -19,59 +19,135 @@
 
         <!-- Navigasi -->
          <nav>
-            <a href="#home-page">Home</a>
+            <a href="#home-page" class="left-rounded">Home</a>
             <a href="#our-profile">Our Profile</a>
             <a href="#portofolio">Portofolio</a>
-            <a href="#massage-us">Massage Us</a>
+            <a href="#massage-us" class="right-rounded">Massage Us</a>
          </nav>
     </header>
 
-    <hr />
+    <hr/>
 
     <!-- Main Content -->
     <main>
        <!-- Home Page -->
         <section>
             <!-- Title -->
-            <header id="home-page">
+             <header id="home-page" class="content-home">
                 <h1>Hi <span id="user-greeting">User</span>, Welcome to our website</h1>
                 <p>Jangan lupa kasih nilai terbaik nya kaka RevoU</p>
-            </header>
+             </header>
 
-            <div class="banner-image">
+             <div class="banner-image">
 
-            </div>
+             </div>
 
         </section>
 
-        <!-- Our Profle -->
+        <hr/>
+
+        <!-- Our Profile -->
         <section>
             <!-- Title -->
-            <header id="our-profile">
+            <header id="our-profile" class="distance">
                 <h1>Our Profile</h1>
             </header>
 
-            <div class="content"></div>
+            <!-- profile -->
+        <div class="container">
+            <div class="profile"></div>
+            <div class="profile"></div>
+            <div class="profile"></div>
+        </div>
+
         </section>
-        
+
+        <hr/>
+
         <!-- Portofolio -->
         <section>
             <!-- Title -->
-            <header id="portofolio">
+            <header id="portofolio" class="distance">
                 <h1>Portofolio</h1>
             </header>
 
-            <div class="content"></div>
+            <!-- size -->
+             <div class="content-portofolio">
+                <div class="left">
+                    <h1>Fakhri Sumirat</h1>
+                    <p>Calon Mahasiswa Jurusan Teknik Informatika</p>
+
+                    <div class="picture"></div>
+
+                    <h1>Profile Pribadi</h1>
+                    <p>Nama saya Fakhri Sumirat. Saya lulusan Pondok Modern Assalam Sukabumi, Saat ini saya sedang mengabdikan diri saya di pondok tercinta ini.
+                       Dan saya berencana untuk masuk ke dunia perkuliahan, Jurusan Teknik Informatika. Pengalaman saya menjabat di kepengurusan rayon Bagian Bahasa Rayon
+                       dan menjadi Bagian Informasi OPPMA, Juga saya menjadi MC (Master of Ceremony) di beberapa acara pondok.
+                    </p>
+
+                    <h2>Contact</h2>
+                    <div class="phone"></div>
+                    <p>0814373863</p>
+
+                    <div class="email"></div>
+                    <p>test@emai.id</p>
+
+                    <div class="social-media"></div>
+                    <p>@testid</p>
+                </div>
+
+                <div class="right">
+
+
+                </div>
+             </div>
         </section>
 
         <!-- Massage Us -->
         <section>
              <!-- Title -->
-             <header id="massage-us">
+             <header id="massage-us" class="distance">
                 <h1>Massage Us</h1>
             </header>
 
-            <div class="content"></div>
+            <!-- size -->
+             <div class="content">
+
+                <form action="" methode="post">
+
+                <!-- form name -->
+                <label for="name">Nama :</label>
+                <input id="name"type=text>
+                
+                <br/>
+
+                <!-- form date -->
+                <label for="Tanggal Lahir">Tanggal Lahir :</label>
+                <input type="date" id="Tanggal" name="Tanggal" required>
+
+                <br/>
+
+                <!-- form radio -->
+                <label for="Jenis Kelamin">Jenis Kelamin :</label>
+
+                    <!-- radio laki-laki -->
+                    <input type="radio" id="Laki-laki" name="Laki-laki" value="Laki-laki" required>
+                    <label for="Laki-laki">Laki-laki </label>
+
+                    <!-- radio Perempuan -->
+                    <input type="radio" id="Perempuan" name="Perempuan" value="Perempuan" required>
+                    <label for="Perempuan">Perempuan</label>
+
+                <br/>
+
+                <!-- form text -->
+                    <label for="Pesan">Pesan :</label>
+                    <textarea rows="8" cols="64">Ketik di sini</textarea>
+
+                
+                </form>
+
+             </div>
         </section>
     </main>
 
@@ -81,6 +157,7 @@
     <footer>
         <p class="footer">&copy; 2025 - All rights reserved</p>
     </footer>
+
 </body>
 
 </html>
